@@ -1,2 +1,13 @@
 packages:
   - 'packages/*'
+  - 'auth-service'
+  - 'auth-service-e2e'
+  - 'order-service'
+  - 'order-service-e2e'
+  - 'shared'
+allowBuilds:
+  '@parcel/watcher': false
+  '@swc/core': false
+  nx: false
+  unrs-resolver: false
+  '@nestjs/core': false
